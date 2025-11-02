@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Prueba de Commits</title>
+  <style>
+    body { font-family: system-ui, Arial, sans-serif; margin: 40px; }
+    .card { border: 1px solid #ddd; border-radius: 12px; padding: 20px; }
+    .ok { font-weight: 700; }
+    small { color: #666; }
+  </style>
+</head>
+<body>
+  <h1>Prueba de Commits</h1>
+
+  <div class="card">
+    <p>Si ves este archivo en GitHub y en tu máquina, todo va bien ✅</p>
+    <p class="ok">Versión: <span id="version">1.0.0</span></p>
+    <p>Autor original: <strong>EDY</strong></p>
+    <p>Colaboradora: <strong id="colab">[pendiente]</strong></p>
+    <small>Instrucción: la colaboradora debe actualizar su nombre y subir commit.</small>
+  </div>
+
+  <script>
+    // La colaboradora puede cambiar estos valores y hacer commit
+    document.getElementById('version').textContent = '1.0.1';
+    document.getElementById('colab').textContent = 'Kelli Anahi Felipe Jacinto';
+  </script>
+</body>
+</html>
